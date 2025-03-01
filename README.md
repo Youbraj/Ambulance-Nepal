@@ -1,8 +1,20 @@
 # 🚑 Ambulance-Sewa
-![Static Badge](https://img.shields.io/badge/Framework-Django-brightgreen) ![Static Badge](https://img.shields.io/badge/DB-MySQL-green)
+![Static Badge](https://img.shields.io/badge/Language-Python-green) ![Static Badge](https://img.shields.io/badge/Framework-Django-brightgreen) ![Static Badge](https://img.shields.io/badge/DB-MySQL-green)
 
 
-Ambulance Sewa is built using Python and Django, and uses a MySQL database to store and manage data related to ambulance services. The front-end of the application is built using HTML, CSS, and JavaScript, and includes features such as an ambulance search bar, a user feedback section, and an admin panel for managing ambulance lists.
+**Ambulance Sewa** is built using Python and Django, and uses a MySQL database to store and manage data related to ambulance services. The front-end of the application is built using HTML, CSS, and JavaScript, and includes features such as an ambulance search bar, a user feedback section, and an admin panel for managing ambulance lists.
+
+Functionalities:
+* Admin related use cases:
+  * Add an ambulance to database
+  * Delete an ambulance to database
+  * Update an ambulance to database
+  * View feedbacks
+
+* User related usecases:
+  * See all ambulances present in the system
+  * Search all ambulances by location
+  * Send feedback
 
 <h2 align="left">👀  &nbsp;Screenshots</h2>
 
@@ -41,11 +53,7 @@ This project follows the [MIT LICENSE](https://choosealicense.com/licenses/mit/)
   <img height="50" src="https://github.com/himanshu-03/himanshu-03/raw/main/assets/socials/instagram.png"/></a>
   <a href="mailto:youbrajk9@gmail.com">
   <img height="50" src="https://github.com/himanshu-03/himanshu-03/raw/main/assets/socials/gmail.png"/></a>
-   
+  
 </p>
 
-<p align="center">
-   
-[(Back to top)](https://github.com/Youbraj/ambulance-sewa?tab=readme-ov-file#top)
-
-</p>
+ <p align="right"><a href="#top">(Back to top)</a></p>
