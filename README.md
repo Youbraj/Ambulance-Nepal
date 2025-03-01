@@ -44,7 +44,8 @@ MySQL installed
 
 This project follows the [MIT LICENSE](https://choosealicense.com/licenses/mit/).
 
- 
+## Acknowledgements
+I would like to thank the open-source community for providing the tools and resources that made this project possible.
 <br />
 
 <div align="center">
