@@ -1,4 +1,4 @@
-# 🚑 Ambulance-Sewa
+# 🚑 Ambulance-Nepal
 ![Static Badge](https://img.shields.io/badge/Language-Python-green) ![Static Badge](https://img.shields.io/badge/Framework-Django-brightgreen) ![Static Badge](https://img.shields.io/badge/DB-MySQL-green)
 
 **Ambulance Sewa** is built using Python and Django, and uses a MySQL database to store and manage data related to ambulance services. The front-end of the application is built using HTML, CSS, and JavaScript, and includes features such as an ambulance search bar, a user feedback section, and an admin panel for managing ambulance lists.
