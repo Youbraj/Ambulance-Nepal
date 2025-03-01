@@ -15,8 +15,6 @@
   * Search all ambulances by location
   * Send feedback
 
-<h2 align="left">👀  &nbsp;Screenshots</h2>
-
 <h2 align="left">⚙️  &nbsp;Execution</h2>
 
 1. Clone our repo
