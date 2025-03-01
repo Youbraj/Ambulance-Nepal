@@ -15,11 +15,17 @@
   * Search all ambulances by location
   * Send feedback
 
+## Prerequisites
+A linux or windows environment
+
+MySQL installed
+
+
 <h2 align="left">⚙️  &nbsp;Execution</h2>
 
 1. Clone our repo
    ```
-   git clone https://github.com/Youbraj/ambulance-sewa
+   git clone https://github.com/Youbraj/Ambulance-Nepal
    ```
 2. Install the dependencies
    ```
