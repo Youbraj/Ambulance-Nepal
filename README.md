@@ -1,3 +1,5 @@
+<img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
+
 # 🚑 Ambulance-Nepal
 ![Static Badge](https://img.shields.io/badge/Language-Python-green) ![Static Badge](https://img.shields.io/badge/Framework-Django-brightgreen) ![Static Badge](https://img.shields.io/badge/DB-MySQL-green)
 
