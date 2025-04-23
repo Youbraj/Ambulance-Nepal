@@ -1,0 +1,53 @@
+{% extends 'meroapp/navigation.html' %}
+{% load static %}
+{% block body %}
+
+
+<h1><center style="background-color:rgb(211, 41, 18);">LIST OF AMBULANCES IN NEPAL</center></h1>
+<form action="" method="get">
+    <input type="text" placeholder="Enter ambulance name" name='ambulance-list'>
+    <button type="submit" class='btn btn-primary'>Search</button>
+    
+    <div align="right">
+    <input type="text" placeholder="Search by address" name='ambulance-list-by-address'>
+    <button type="submit" class='btn btn-primary'>Search</button>
+    </div>
+</form>
+
+    
+
+
+<table class='table table-bordered' id="my-doctor-table">   
+    <tr>
+        <td style="background-color:green;"><b><h4>S.N.</h4></b></td>
+        <td style="background-color:rgb(0, 23, 128);"><b><h4>NAME</h4></b></td>
+        <td style="background-color:rgb(128, 0, 117);"><b><h4>CONTACT</h4></b></td>
+        <td style="background-color:rgb(145, 161, 0);"><b><h4>ADDRESS</h4></b></td>
+
+    </tr>
+    <tbody>
+        {% for doctor in persons.data %}
+        
+        <tr>
+            <!-- <td>{{doctor.id}}</td> -->
+            <!-- <td><ol><li></li></ol></td> -->
+            <!-- <td> <div><script>document.write(loop())</script></div> </td> -->
+            <td>{{forloop.counter}}</td>
+            <td>{{doctor.name}}</td>
+            <td>{{doctor.contact}}</td>
+            <td>{{doctor.address}}</td>
+            
+
+        </tr>
+        
+        {%endfor%}
+    </tbody>
+    
+    
+</table>
+
+
+
+
+
+{% endblock%}

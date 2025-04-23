@@ -1,0 +1,22 @@
+<div class="modal-header">
+    <h5 class="modal-title" id="staticBackdropLabel">Delete Data</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <!-- <form method="POST" action="{% url 'meroapp:delete-ambulance' form.id %}" > -->
+        <form method="POST" action="/delete-ambulance/{{form.id}}" >
+
+  <div class="modal-body">
+    
+        {%csrf_token%}
+        <p>Do you want to delete <strong>{{form.name}}</strong> of <strong>{{form.address}}</strong>?</p>
+        <!-- <button type="submit" align="left" >DELETE</button> -->
+    
+    
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">NO</button>
+    <button type="submit" class="btn btn-danger">YES</button>
+  </div>
+</form>
+
+  

@@ -1,0 +1,79 @@
+{% extends 'meroapp/navigation.html' %}
+{% load static %}
+{% block body %}
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<section id="about">
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="section-title">
+						<div class="section-subtitle">About</div>
+						<br>
+						<h2 class="section-main-title">
+							All About <strong>Ambulances In Nepal</strong>
+						</h2>
+					</div>
+
+					<div class="about-item">
+						<p>An ambulance is like racing vehicle of life that determines 
+							how much one second is important. Ambulance sevices in Nepal
+							is being provided by not only hospitals but also by various 
+							youth clubs, organaizations, NGOs, etc. Due to the
+							less number of ambulances available all over the Nepal, youth clubs
+							and various organaizations started to provide ambulance services
+							in various places in Nepal.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 offset-sm-2">
+				 <div class="about-box">
+				   <img src="{% static 'images/ambulance2.jpg' %}">
+				 </div>
+				</div>
+            </div>
+
+			<div class="row mt-5">
+				<div class="col-sm-4">
+				 <div class="about-boxx">
+				   <img src="{% static 'images/ambulance4.jpg' %}">
+				 </div>
+				</div>
+				<div class="col-sm-6 offset-sm-2">
+				<div class="about-item mt-5">
+					<h4><span style="color:red">All About</span> <span style="color:green"><b>Ambulance Services</b></span></h4>
+						<p>Various public as well as private organizations are providing
+							ambulance services so that by the mentioned contacts, we can
+							get services when it is about life and health. The sevices
+							are opened for 24/7. As address is mentioned, it will be
+							easier for getting the service quick when the situation is
+							critical or emergency.
+						</p>
+					</div>
+				</div>
+			</div>
+
+            <div class="row mt-5">
+				<div class="col-sm-6">
+				<div class="about-item mt-5">
+					<h4><span style="color:green">All About</span> <span style="color:blue"><b>Us</b></span></h4>
+						<p>We are collecting contacts and details about ambulance
+							sevices all over the Nepal which we are making easier
+							to bring to people's reach. Contacts and details are
+							regularly updated as in needs.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 offset-sm-2">
+				 <div class="about-box">
+				   <img src="{% static 'images/ambulance3.jpg' %}">
+				 </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock%}
